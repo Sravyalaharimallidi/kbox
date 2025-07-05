@@ -1,4 +1,4 @@
-# KBox - Backend API
+# kbox - Backend API
 
 KBox is a backend system built for a personal resource management web app. It helps users save useful online content like links, notes, and PDFs into categorized collections with tagging, favorites, public/private sharing, and daily flashcard reminders.
 
@@ -166,3 +166,34 @@ A cron job (`favoriteFlashcardCron.js`) runs every night at 12:00 AM and:
 ├── README.md
 ├── .gitignore
 └── pnpm-lock.yaml
+---
+
+## Running Locally
+
+To run this project locally, ensure you have:
+
+- Node.js installed (v16+ recommended)
+- `pnpm` installed globally (`npm install -g pnpm`)
+
+### Steps
+
+1. **Clone the repository**
+
+``` bash
+git clone https://github.com/your-username/kbox.git
+cd kbox
+```
+
+2. **Install dependencies**
+
+```bash
+pnpm install
+```
+
+3. **Start the development server**
+```bash
+
+pnpm run dev
+```
+The backend server will start on [http://localhost:3000] (or your configured port).
+
